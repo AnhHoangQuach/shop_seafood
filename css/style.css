@@ -4,7 +4,7 @@
     font-family: Montserrat,sans-serif;
 }
 
-header {
+.header_top {
     background-color: #2c3941;
     display: block;
 }
@@ -52,3 +52,45 @@ header {
     padding: 0px 40px;
     margin: 10px 0px;
 }
+
+/* header_bottom */
+.header_bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 63px;
+}
+
+.nav_links {
+    list-style-type: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    color: #1d2122;
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #0088a9;
+    text-decoration: none;
+}
+
+.dropdown:hover > .dropdown-menu{
+    display: block;
+    transition: all 0.3s ease 0s;
+    background-color: #8bb4cd;
+}
+
+.dropdown:hover > .dropdown-menu > a {
+    color: #fff;
+}
+
+.dropdown:hover > .dropdown-menu > a:hover {
+    color: #8bb4cd;
+}
+

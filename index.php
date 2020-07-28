@@ -5,42 +5,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://kit.fontawesome.com/d8b310bdda.js" crossorigin="anonymous"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" 
+    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <div class="container">
-            <div class="row justify-content-md-center">
-                <div class="col-md-2 columns_wrap">
-                    <span class="icon_left"><i class="fas fa-map-marker-alt"></i></span>
-                    <span class="contact_label"> 36 Ngu Hanh <br> Son, Da Nang</span>
-                </div>
-                <div class="col-md-2 columns_wrap">
-                    <span class="icon_left"><i class="fas fa-phone-volume"></i></span>    
-                    <span class="contact_label">Call us at <br> <a href="tel:0869679324"> 0869679324</a></span>
-                </div>
-                <div class="col-md-4 columns_wrap">
-                    <a href="index.php"><img src="images/logo.png" alt=""></a>
-                </div>
-                <ul class="col-md-2 columns_wrap">
-                    <li>
-                        <span class="icon_right"><i class="fas fa-user"></i></span>  
-                    </li>
-                    <li class="user_login">
-                        <span class="contact_label_right">
-                            <a id="cart-popover" data-placement="bottom" title>Login</a>
-                        </a>
-                    </li>
-                </ul>
-                <div class="col-md-2 columns_wrap">
-                    <span class="icon-right"><i class="fas fa-shopping-cart"></i></span>    
-                    <span class="contact_label_right">$0.00</span>
+        <div class="header_top">
+            <div class="container">
+                <div class="row justify-content-md-center">
+                    <div class="col-md-2 columns_wrap">
+                        <span class="icon_left"><i class="fas fa-map-marker-alt"></i></span>
+                        <span class="contact_label"> 36 Ngu Hanh <br> Son, Da Nang</span>
+                    </div>
+                    <div class="col-md-2 columns_wrap">
+                        <span class="icon_left"><i class="fas fa-phone-volume"></i></span>    
+                        <span class="contact_label">Call us at <br> <a href="tel:0869679324"> 0869679324</a></span>
+                    </div>
+                    <div class="col-md-4 columns_wrap">
+                        <a href="index.php"><img src="images/logo.png" alt=""></a>
+                    </div>
+                    <ul class="col-md-2 columns_wrap">
+                        <li>
+                            <span class="icon_right"><i class="fas fa-user"></i></span>  
+                        </li>
+                        <li class="user_login">
+                            <span class="contact_label_right">
+                                <a id="cart-popover" data-placement="bottom" title>Login</a>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="col-md-2 columns_wrap">
+                        <span class="icon-right"><i class="fas fa-shopping-cart"></i></span>    
+                        <span class="contact_label_right">$0.00</span>
+                    </div>
                 </div>
             </div>
         </div>
+        <div class="header_bottom">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="nav_links">
+                        <li class="nav-item dropdown active">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            HOME
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                        <li class="nav-item"><a href="">FEATURES</a></li>
+                        <li class="nav-item"><a href="">RECIPES</a></li>
+                        <li class="nav-item"><a href="">PRODUCTS</a></li>
+                        <li class="nav-item"><a href="">BLOG</a></li>
+                        <li class="nav-item"><a href="">ABOUT</a></li>
+                        <li class="nav-item"><a href="">CONTACTS</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
     </header>
+    <section>
+
+    </section>
 </body>
 </html>
