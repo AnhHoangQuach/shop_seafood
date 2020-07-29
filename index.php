@@ -4,13 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="https://kit.fontawesome.com/d8b310bdda.js" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.js" 
-    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <script src="js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d8b310bdda.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
@@ -75,7 +74,29 @@
         </div>
     </header>
     <section>
-
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="img-responsive" src="images/slides/slides_1.jpg" alt="">
+                <div class="item-caption">
+                    <h1 class="caption">THE WONDERS OF THE OCEAN</h1>
+                    <h1 class="caption">ON THE PLATE</h1>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/slides/slides_2.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="images/slides/slides_3.jpg" alt="">
+            </div>
+        </div>
     </section>
+    <div class="page_content_wrap">
+        <h1>Hello</h1>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" 
+    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
