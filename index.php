@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/d8b310bdda.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -120,9 +121,33 @@
                     <span>Control</span>
                 </div>
             </div>
-            <div class="section_introduce">
-                <p>Welcome</p>
-            </div>
+        </div>
+        <div class="empty_space"></div>
+        <div class="section_comp">
+            <div class="empty_space"></div>
+            <h6 class="sc_subtitle">welcome</h6>
+            <h2 class="sc_title">SEAFOOD COMPANY</h2>
+            <div class="section_content">
+                <div class="container">
+                    <div class="sc_image">
+                        
+                    </div>
+                    <div class="sc_block">
+                        <h2>Our Seafood</h2>
+                        <div class="sc_desc sc_title_margin">
+                        Fish markets range in size from small fish stalls, such as the one in the photo at the right, 
+                        to the great Tsukiji fish market in Tokyo, turning over about 660,000 tonnes a year. The term can refer to the process.
+                        </div>
+                        <div class="sc_button sc_title_margin">
+                            <a href="" class="btn btn-outline-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </>
+        </div>
+        <div class="empty_space"></div>
+        <div class="section_intro">
+            <h1>Hello</h1>
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.js" 
