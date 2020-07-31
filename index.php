@@ -139,15 +139,39 @@
                         to the great Tsukiji fish market in Tokyo, turning over about 660,000 tonnes a year. The term can refer to the process.
                         </div>
                         <div class="sc_button sc_title_margin">
-                            <a href="" class="btn btn-outline-primary">Learn More</a>
+                            <a href="" class="btn btn-outline-primary btn-lg">LEARN MORE</a>
                         </div>
                     </div>
                 </div>
-            </>
+            </div>
         </div>
         <div class="empty_space"></div>
-        <div class="section_intro">
-            <h1>Hello</h1>
+        <div class="section_intro_item">
+            <div class="section_intro">
+                <h2>WE OFFER FIRST CLASS SHRIMPS</h2>
+                <div class="sc_intro_desc sc_title_margin">
+                    <p class="desc_content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.<p>
+                </div>
+                <div class="sc_intro_button sc_title_margin">
+                    <a href="" class="btn btn-lg">Shop Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="empty-space"></div>
+        <div class="section_service">
+            <div class="empty_space"></div>
+            <h6 class="sc_subtitle">about</h6>
+            <h2 class="sc_title">OUR ADVANTAGES</h2>
+            <div class="sc_wrap">
+                <div class="service_feature">
+                </div>
+                <div class="service_feature">
+                </div>
+                <div class="service_feature">
+                </div>
+                <div class="service_feature">
+                </div>
+            </div>
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.js" 

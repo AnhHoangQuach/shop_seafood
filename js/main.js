@@ -35,50 +35,76 @@ $(document).ready(function() {
         return (' ' + element.className + ' ').indexOf(' ' + cls + ' ') > -1;
     }
 
-    var product_feature = $('.product_feature');
-    var product_len = product_feature.length;
-    var product_count = 1;
-    if(product_count !== product_len) {
-        product_feature.each(function() {
-            var imgSrc = "../shop_seafood/images/bg_feature/bg_feature" + `${product_count++}` + ".jpg";
-            $(this).css('background-image', 'url("' + imgSrc + '")');
-            $(this).addClass('product_feature_all');
-            if(product_count > 2) {
-                $(this).addClass('product_margin');
-            }
-        });
+    function imageMany(className, path) {
+        var product_feature = $(`.${className}`);
+        var product_len = product_feature.length;
+        var product_count = 1;
+        if(product_count !== product_len) {
+            product_feature.each(function() {
+                var imgSrc = `.${path}` + `${product_count++}` + ".jpg";
+                $(this).css('background-image', 'url("' + imgSrc + '")');
+                $(this).addClass('product_feature_all');
+                if(product_count > 2) {
+                    $(this).addClass('product_margin');
+                }
+            });
+        }
     }
+
+    imageMany('product_feature', '/images/bg_feature/bg_feature');
+
+    //split text
+    // var text;
+    // var char;
+    // var timer;
+    // var splitText;
+    // function split_string(className) {
+    //     text = document.querySelector(`${className}`);
+    //     const strText = text.textContent;
+    //     splitText = strText.split("");
+    //     text.textContent = "";
+    //     for(let i=0;i<splitText.length;i++) {
+    //         text.innerHTML += "<span>" + splitText[i] + "</span>";
+    //     }
+    //     char = 0;
+    //     timer = setInterval(onTick,50);
+    // }
+
+    // function onTick() {
+    //     const span = text.querySelectorAll('span')[char];
+    //     span.classList.add('fade');
+    //     char++;
+    //     if(char === splitText.length) {
+    //         complete();
+    //         return;
+    //     }
+    // }
+
+    // function complete() {
+    //     clearInterval(timer);
+    //     timer = null;
+    // }
+    // split_string('.caption');
+
+    function splitStr(str, maxLength, charWith) {
+        var times = Math.floor(str.length / maxLength);
+        var res = str.length - times * maxLength;
+        var output = '';
+        for(let i = 0;i < times;i++) {
+            if(i == 0) {
+                output += str.substr(0, maxLength);
+            } else {
+                output += str.substr(maxLength + 1, maxLength);
+            }
+            output += '<br>';
+        }
+        output += str.substr(times * maxLength + 1, res);
+        return output;
+    }
+
+    var sc_intro_desc = $('.desc_content');
+    var output = splitStr(sc_intro_desc.text(), 79, '<br>');
+    sc_intro_desc.html(output);
+
+    imageMany('service_feature', '/images/service/service_feature');
 });
-
-//split text
-// var text;
-// var char;
-// var timer;
-// var splitText;
-// function split_string(className) {
-//     text = document.querySelector(`${className}`);
-//     const strText = text.textContent;
-//     splitText = strText.split("");
-//     text.textContent = "";
-//     for(let i=0;i<splitText.length;i++) {
-//         text.innerHTML += "<span>" + splitText[i] + "</span>";
-//     }
-//     char = 0;
-//     timer = setInterval(onTick,50);
-// }
-
-// function onTick() {
-//     const span = text.querySelectorAll('span')[char];
-//     span.classList.add('fade');
-//     char++;
-//     if(char === splitText.length) {
-//         complete();
-//         return;
-//     }
-// }
-
-// function complete() {
-//     clearInterval(timer);
-//     timer = null;
-// }
-// split_string('.caption');

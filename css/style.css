@@ -235,5 +235,40 @@
 
 .sc_button > a {
     background-color: #fff;
+    font-size: 0.9em;
     color: #83acc7;
+}
+
+/* section_intro */
+.section_intro_item {
+    background-image: url('../images/bg_promo2.jpg');
+    height: 535px;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
+
+.section_intro {
+    position: absolute;
+    bottom: 40%;
+    left: 26%;
+    font-size: 15px;
+}
+
+.sc_intro_button > a{
+    background-color: #fff;
+    color: #000;
+}
+
+.sc_intro_button > a:hover {
+    background-color: #bf5025;
+    color: #fff;
+}
+
+/* section_service */
+.section_service {
+    text-align: center;
+    height: 489px;
 }
