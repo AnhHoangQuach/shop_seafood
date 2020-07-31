@@ -158,20 +158,46 @@
             </div>
         </div>
         <div class="empty-space"></div>
-        <div class="section_service">
+        <div class="section_about">
             <div class="empty_space"></div>
             <h6 class="sc_subtitle">about</h6>
             <h2 class="sc_title">OUR ADVANTAGES</h2>
             <div class="sc_wrap">
-                <div class="service_feature">
+                <div class="sc_wrap_item">
+                    <div class="about_feature"></div>
+                    <div class="sc_item_title sc_1">
+                        <a href="#">Responsibly Sourced</a>
+                        <p class="sc_item_desc1">Responsibly-sourced seafood is the key to the modern, safe and profitable seafood industry.</p>
+                    </div>
                 </div>
-                <div class="service_feature">
+                <div class="sc_wrap_item">
+                    <div class="about_feature"></div>
+                    <div class="sc_item_title sc_2">
+                        <a href="#">Environment</a>
+                        <p class="sc_item_desc2">The seafood industry has a concern over climate impact, and takes responsibility in any case.</p>
+                    </div>
                 </div>
-                <div class="service_feature">
+                <div class="sc_wrap_item">
+                    <div class="about_feature"></div>
+                    <div class="sc_item_title sc_3">
+                        <a href="#">Staff</a>
+                        <p class="sc_item_desc3">Our experts work hard to maintain the quality seafood for our dear customers exclusively.</p>
+                    </div>
                 </div>
-                <div class="service_feature">
+                <div class="sc_wrap_item">
+                    <div class="about_feature"></div>
+                    <div class="sc_item_title sc_4">
+                        <a href="#">Marketplace</a>
+                        <p class="sc_item_desc4">Your business becomes benefitial by providing the customers with the best.</p>
+                    </div>
                 </div>
             </div>
+        </div>
+        <div class="empty_space"></div>
+        <div class="section_service">
+            <div class="empty-space"></div>
+            <h6 class="sc_subtitle">our</h6>
+            <h2 class="sc_title">FULL SERVICE</h2>
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.js" 

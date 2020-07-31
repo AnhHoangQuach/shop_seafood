@@ -89,13 +89,9 @@ $(document).ready(function() {
     function splitStr(str, maxLength, charWith) {
         var times = Math.floor(str.length / maxLength);
         var res = str.length - times * maxLength;
-        var output = '';
-        for(let i = 0;i < times;i++) {
-            if(i == 0) {
-                output += str.substr(0, maxLength);
-            } else {
-                output += str.substr(maxLength + 1, maxLength);
-            }
+        var output = `${str[0]}`;
+        for(let i = 0;i < times;i++) {    
+            output += str.substr(i * maxLength + 1, maxLength);
             output += '<br>';
         }
         output += str.substr(times * maxLength + 1, res);
@@ -106,5 +102,19 @@ $(document).ready(function() {
     var output = splitStr(sc_intro_desc.text(), 79, '<br>');
     sc_intro_desc.html(output);
 
-    imageMany('service_feature', '/images/service/service_feature');
+    imageMany('about_feature', '/images/about/about_feature');
+
+    var sc_wrap_item = $('.sc_wrap_item');
+    var sc_item_count = 1;
+    if(sc_item_count !== sc_wrap_item.length) {
+        sc_wrap_item.each(function() {
+            var sc_item_desc = $('.sc_item_desc' + `${sc_item_count++}`);
+            var output_item = splitStr(sc_item_desc.text(), 24, '<br>');
+            sc_item_desc.html(output_item);
+            if(sc_item_count >= 2) {
+                var sc_class = $('.sc_' + `${sc_item_count}`);
+                sc_class.addClass('sc_item_all');
+            }
+        })
+    }
 });
