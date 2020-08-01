@@ -195,9 +195,67 @@
         </div>
         <div class="empty_space"></div>
         <div class="section_service">
-            <div class="empty-space"></div>
+            <div class="empty_space"></div>
             <h6 class="sc_subtitle">our</h6>
             <h2 class="sc_title">FULL SERVICE</h2>
+            <div class="service_wrap">
+                <div class="sc_service">
+                    <div class="service_feature">
+                        <a href="#"><span class="sc_icon"><i class="fas fa-globe fa-2x"></i></span></a>
+                        <div class="service_title">
+                            <h6>GLOBAL NETWORK</h6>
+                            <p class="sc_desc">Learn about our world wide net. Become a partner or a client.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sc_service">
+                    <div class="service_feature">
+                        <a href="#"><span class="sc_icon"><i class="fas fa-shipping-fast fa-2x"></i></span></a>
+                        <div class="service_title">
+                            <h6>LOGISTICS</h6>
+                            <p class="sc_desc">One if the most important factors. Always fresh, always in time.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sc_service">
+                    <div class="service_feature">
+                        <a href="#"><span class="sc_icon"><i class="fas fa-warehouse fa-2x"></i></span></a>
+                        <div class="service_title">
+                            <h6>WAREHOUSES</h6>
+                            <p class="sc_desc">Professional equipment is key. We work to maintain standards.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="service_wrap_sec">
+                <div class="sc_service">
+                    <div class="service_feature">
+                        <a href="#"><span class="sc_icon"><i class="fas fa-certificate fa-2x"></i></span></a>
+                        <div class="service_title">
+                            <h6>CERTIFICATION</h6>
+                            <p class="sc_desc">We work with certified employees. We provide top quality food.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sc_service">
+                    <div class="service_feature">
+                        <a href="#"><span class="sc_icon"><i class="fas fa-temperature-low fa-2x"></i></span></a>
+                        <div class="service_title">
+                            <h6>TEMPERATURE MONITOR</h6>
+                            <p class="sc_desc">The importance of the right degree for different sea products.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sc_service">
+                    <div class="service_feature">
+                        <a href="#"><span class="sc_icon"><i class="fas fa-utensil-spoon fa-2x"></i></i></span></a>
+                        <div class="service_title">
+                            <h6>TEST KITCHENS</h6>
+                            <p class="sc_desc">Cook our seafood products and see how they prove to be perfect.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.js" 
