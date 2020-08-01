@@ -35,23 +35,22 @@ $(document).ready(function() {
         return (' ' + element.className + ' ').indexOf(' ' + cls + ' ') > -1;
     }
 
-    function imageMany(className, path) {
+    function imageMany(className, path, count, count_margin) {
         var product_feature = $(`.${className}`);
         var product_len = product_feature.length;
-        var product_count = 1;
-        if(product_count !== product_len) {
+        if(count !== product_len) {
             product_feature.each(function() {
-                var imgSrc = `.${path}` + `${product_count++}` + ".jpg";
+                var imgSrc = `.${path}` + `${count++}` + ".jpg";
                 $(this).css('background-image', 'url("' + imgSrc + '")');
                 $(this).addClass('product_feature_all');
-                if(product_count > 2) {
+                if(count > count_margin) {
                     $(this).addClass('product_margin');
                 }
             });
         }
     }
 
-    imageMany('product_feature', '/images/bg_feature/bg_feature');
+    imageMany('product_feature', '/images/bg_feature/bg_feature', 1, 2);
 
     //split text
     // var text;
@@ -102,7 +101,7 @@ $(document).ready(function() {
     var output = splitStr(sc_intro_desc.text(), 79, '<br>');
     sc_intro_desc.html(output);
 
-    imageMany('about_feature', '/images/about/about_feature');
+    imageMany('about_feature', '/images/about/about_feature', 1, 2);
 
     var sc_wrap_item = $('.sc_wrap_item');
     var sc_item_count = 1;
@@ -160,5 +159,8 @@ $(document).ready(function() {
                 [runView('#count_1'), runView('#count_2'), runView('#count_3')], 10
             );            
         }
-     });
+    });
+
+    imageMany('post_product1', '/images/products/products_', 1, 2);
+    imageMany('post_product2', '/images/products/products_', 6, 7);
 });

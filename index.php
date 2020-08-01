@@ -282,18 +282,21 @@
             <h6 class="sc_subtitle">seafood</h6>
             <h2 class="sc_title">DISCOVER OUR PRODUCTS</h2>
             <div class="product_wrap_one">
-                <div class="post_product"></div>
-                <div class="post_product"></div>
-                <div class="post_product"></div>
-                <div class="post_product"></div>
-                <div class="post_product"></div>
+                <div class="post_product1"></div>
+                <div class="post_product1"></div>
+                <div class="post_product1"></div>
+                <div class="post_product1"></div>
+                <div class="post_product1"></div>
             </div>
-            <div class="product_wrap_second">
-                <div class="post_product"></div>
-                <div class="post_product"></div>
-                <div class="post_product"></div>
-                <div class="post_product"></div>
-                <div class="post_product"></div>
+            <div class="product_wrap_sec">
+                <div class="post_product2"></div>
+                <div class="post_product2"></div>
+                <div class="post_product2"></div>
+                <div class="post_product2"></div>
+                <div class="post_product2"></div>
+            </div>
+            <div class="sc_pro_but">
+                <a href="#" class="btn btn-dark sc_but">VIEW MORE PRODUCTS</a>
             </div>
         </div>
     </div>
