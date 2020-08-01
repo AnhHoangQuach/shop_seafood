@@ -257,6 +257,45 @@
                 </div>
             </div>
         </div>
+        <div class="empty_space"></div>
+        <div class="banner_count" id="ban_sc">
+            <div class="banner_content">
+                <div class="banner_skill">
+                    <div id="count_1" data-start="0" data-stop="324" data-step="3">0</div>
+                    <div class="space_bar"></div>
+                    <p class="info">VARIETIES OF SHRIMP, MUSSELS, LOBSTER & FINFISH</p>
+                </div>
+                <div class="banner_skill">
+                    <div id="count_2" data-start="0" data-stop="32" data-step="3">0</div>
+                    <div class="space_bar"></div>
+                    <p class="info">COUNTRIES EXPORTED TO AND IMPORTED FROM</p>
+                </div>
+                <div class="banner_skill">
+                    <div id="count_3" data-start="0" data-stop="287" data-step="3">0</div>
+                    <div class="space_bar"></div>
+                    <p class="info">THOUSAND SQ. FEET OF FROZEN STORAGE SPACE</p>
+                </div>
+            </div>
+        </div>
+        <div class="empty_space"></div>
+        <div class="sc_product">
+            <h6 class="sc_subtitle">seafood</h6>
+            <h2 class="sc_title">DISCOVER OUR PRODUCTS</h2>
+            <div class="product_wrap_one">
+                <div class="post_product"></div>
+                <div class="post_product"></div>
+                <div class="post_product"></div>
+                <div class="post_product"></div>
+                <div class="post_product"></div>
+            </div>
+            <div class="product_wrap_second">
+                <div class="post_product"></div>
+                <div class="post_product"></div>
+                <div class="post_product"></div>
+                <div class="post_product"></div>
+                <div class="post_product"></div>
+            </div>
+        </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.js" 
     integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>

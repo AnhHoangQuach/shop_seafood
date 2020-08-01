@@ -118,5 +118,47 @@ $(document).ready(function() {
         })
     }
 
+    var banner_content = $('.banner_skill');
+    var banner_count = 1;
+    if(banner_count !== banner_content.length) {
+        banner_content.each(function() {
+            var b_c = $('#count_' + `${banner_count++}`);
+            b_c.addClass('count_all');
+        })
+    }
+
+    function runView(id) {
+        var start = parseInt($(`${id}`).attr('data-start'));
+        var end = parseInt($(`${id}`).attr('data-stop'));
+        var step = parseInt($(`${id}`).attr('data-step'));
+        var do_time = setInterval(function() {
+            start += step;
+            if(start <=  end) {
+                $(`${id}`).html(parseInt(start));
+            } else {
+                clearInterval(do_time);
+                $(`${id}`).html(parseInt(end));
+            }
+            console.log(start);
+        },30)
+    }
     
+    function executeAsynchronously(functions, timeout) {
+        for(var i = 0; i < functions.length; i++) {
+          setTimeout(functions[i], timeout);
+        }
+    }
+      
+
+    $(window).scroll(function() {
+        var hT = $('#ban_sc').offset().top,
+            hH = $('#ban_sc').outerHeight(),
+            wH = $(window).height(),
+            wS = $(this).scrollTop();
+        if (wS >= (hT+hH-wH)){
+            executeAsynchronously(
+                [runView('#count_1'), runView('#count_2'), runView('#count_3')], 10
+            );            
+        }
+     });
 });

@@ -387,3 +387,39 @@
     justify-content: center;
     align-items: center;
 }
+
+/* banner_count */
+.banner_count {
+    height: 390px;
+    background-image: url('../images/bg_counters.jpg');
+    position: relative;
+}
+
+.banner_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 23%;
+    left: 5%;
+}
+
+.banner_skill {
+    width: 343px;
+    height: 200px;
+    margin-right: 40px;
+}
+
+.space_bar{
+    height: 3px;
+    width: 53px;
+    background-color: #bf5025;;
+    margin: 15px auto;
+}
+
+.count_all {
+    margin: 20px 0px;
+    font-size: 50px;
+}
