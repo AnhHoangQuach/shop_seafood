@@ -319,6 +319,60 @@
                 </div>
             </div>
         </div>
+        <div class="empty_space"></div>
+        <div class="product_list">
+            <div class="empty_space"></div>
+            <h6 class="sc_subtitle">products</h6>
+            <h2 class="sc_title">FEATURED ITEMS</h2>
+            <div class="product_list_item">
+                <div class="item_info">
+                    <a href="#"><img src="images/items/1.jpg" alt=""></a>
+                    <div class="overlay">
+                        <a href="#" class="btn btn-dark">ADD TO CART</a>
+                    </div>
+                    <div class="item_sub">
+                        <h3><a href="#">Salmon</a></h3>
+                        <span class="price">$25.00</span>
+                    </div>
+                </div>
+                <div class="item_info">
+                    <a href="#"><img src="images/items/2.jpg" alt=""></a>
+                    <div class="overlay">
+                        <a href="#" class="btn btn-dark">ADD TO CART</a>
+                    </div>
+                    <div class="item_sub">
+                        <h3><a href="#">Tilapia</a></h3>
+                        <span class="price">$19.00</span>
+                    </div>
+                </div>
+                <div class="item_info">
+                    <a href="#"><img src="images/items/3.jpg" alt=""></a>
+                    <div class="overlay">
+                        <a href="#" class="btn btn-dark">ADD TO CART</a>
+                    </div>
+                    <div class="item_sub">
+                        <h3><a href="#">Shrimp</a></h3>
+                        <span class="price">$21.00</span>
+                    </div>
+                </div>
+                <div class="item_info">
+                    <a href="#"><img src="images/items/4.jpg" alt=""></a>
+                    <div class="overlay">
+                        <a href="#" class="btn btn-dark">ADD TO CART</a>
+                    </div>
+                    <div class="item_sub">
+                        <h3><a href="#">Snapper</a></h3>
+                        <span class="price">$18.00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="shop_now">
+                <a href="#" class="btn btn-dark">SHOP NOW</a>
+            </div>
+        </div>
+        <div class="video_banner">
+            
+        </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.js" 
     integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
