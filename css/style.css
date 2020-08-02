@@ -479,3 +479,82 @@
     font-size: 14px;
     padding: 12px 12px;
 }
+
+/* discount_program */
+
+.discount_program {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info_discount {
+    width: 315px;
+    height: 260px;
+    background-image: url(../images/banner_1.png);
+    margin-right: 30px;
+    position: relative;
+}
+
+.dis_title {
+    text-align: left;
+    color: #fff;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+}
+
+.dis_desc {
+    margin: 15px 0px;
+    font-size: 14px;
+    width: 65%;
+}
+
+.event_discount {
+    width: 690px;
+    height: 260px;
+    background-image: url(../images/banner_2.jpg);
+}
+
+.dis_but > a{
+    width: 165px;
+    height: 45px;
+    padding-top: 10px;
+    color: #83acc7;
+}
+
+.dis_but > a:hover {
+    background: #8bb4cd;
+    border-color: #fff;
+    color: #fff;
+}
+
+.event_discount {
+    position: relative;
+}
+
+.eve_title {
+    position: absolute;
+    left: 55%;
+    top: 13%;
+}
+
+.eve_desc {
+    margin: 16px 0px;
+    font-size: 14px;
+    width: 90%;
+}
+
+.eve_but > a{
+    width: 165px;
+    height: 45px;
+    padding-top: 10px;
+    color: #fff;
+}
+
+.eve_but > a:hover {
+    background: #8bb4cd;
+    border-color: #fff;
+    color: #fff;
+}

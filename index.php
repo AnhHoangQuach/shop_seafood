@@ -130,7 +130,6 @@
             <div class="section_content">
                 <div class="container">
                     <div class="sc_image">
-                        
                     </div>
                     <div class="sc_block">
                         <h2>Our Seafood</h2>
@@ -297,6 +296,27 @@
             </div>
             <div class="sc_pro_but">
                 <a href="#" class="btn btn-dark sc_but">VIEW MORE PRODUCTS</a>
+            </div>
+        </div>
+        <div class="empty_space"></div>
+        <div class="discount_program">
+            <div class="info_discount">
+                <div class="dis_title">
+                    <h4 class="dis_sub">Discount Program</h4>
+                    <div class="dis_desc">We want to make your experience truly amazing. Always.</div>
+                    <div class="dis_but">
+                        <a href="#" class="btn btn-light">SHOP NOW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="event_discount">
+                <div class="eve_title">
+                    <h4 class="eve_sub">Weekly Special Offer</h4>
+                    <div class="eve_desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula.</div>
+                    <div class="eve_but">
+                        <a href="#" class="btn btn-dark">LEARN MORE</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
