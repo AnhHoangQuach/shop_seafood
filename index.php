@@ -371,7 +371,21 @@
             </div>
         </div>
         <div class="video_banner">
-            
+            <div class="empty_space"></div>
+            <h6 class="sc_subtitle">video</h6>
+            <h2 class="sc_title_video">FEATURED RECIPE</h2>
+            <div class="video_content">
+                <div class="video_run">
+                    <iframe id="vd_view" src="https://player.vimeo.com/video/85992998"></iframe>
+                    <div id="but_run"><i class="fas fa-play"></i></div>
+                </div>
+                <div class="vd_sub">
+                    <p>Including fish as a regular part of a balanced diet has been shown to greatly help the symptoms of rheumatoid arthritis.</p>
+                </div>
+                <div class="vd_button">
+                    <a href="#" class="btn btn-light">VIEW OUR PORTFOLIO</a>
+                </div>
+            </div>
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.js" 

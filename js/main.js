@@ -138,7 +138,6 @@ $(document).ready(function() {
                 clearInterval(do_time);
                 $(`${id}`).html(parseInt(end));
             }
-            console.log(start);
         },30)
     }
     
@@ -163,4 +162,13 @@ $(document).ready(function() {
 
     imageMany('post_product1', '/images/products/products_', 1, 2);
     imageMany('post_product2', '/images/products/products_', 6, 7);
+
+    var but_run = $('#but_run');
+    var vd_view = $('#vd_view');
+    but_run.on('click', function() {
+        but_run.css('display', 'none');
+        vd_view.css('opacity','1');
+        var symbol = vd_view[0].src.indexOf("?") > -1 ? "&" : "?";
+        vd_view[0].src += symbol + "autoplay=1";
+    });
 });
