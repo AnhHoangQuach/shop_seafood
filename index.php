@@ -470,6 +470,46 @@
                 </div>
             </div>
         </div>
+        <footer>
+            <div class="footer_wrap">
+                <div class="footer_content_wrap">
+                    <aside class="logo_1 footer_comp">
+                        <div class="logo_footer">
+                            <a href="#"><img src="images/logo_footer.png" alt=""></a>
+                        </div>
+                    </aside>
+                    <aside class="about_us footer_comp">
+                        <h6>ABOUT US</h6>
+                        <div class="about_desc">
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
+                        </div>
+                    </aside>
+                    <aside class="links_nav footer_comp">
+                        <h6>LINKS</h6>
+                        <ul class="links_list">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Recipes</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Features</a></li>
+                            <li><a href="#">Products</a></li>
+                            <li><a href="#">Careers</a></li>
+                        </ul>
+                    </aside>
+                    <aside class="contact_us footer_comp">
+                        <h6>CONTACT US</h6>
+                        <div class="text_widge">
+                            Call us at <a href="tel:0869679324">0869679324</a>
+                            36 Ngu Hanh Son, DN, VN
+                            <a href="mailto:skyahq13@gmail.com">skyahq13@gmail.com</a>
+                        </div>
+                    </aside>
+                </div>
+                <div class="copyright">
+                    Copyright &copy;<script>document.write(new Date().getFullYear());</script>
+                    All rights reserved | This template is made with <i class="fas fa-heart"></i> by <a href="https://www.facebook.com/profile.php?id=100007422227963">Hoang Anh</a>
+                </div>
+            </div>
+        </footer>
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.js" 
     integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
