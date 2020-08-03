@@ -393,7 +393,12 @@
             <h2 class="sc_title_video">RECENT NEWS</h2>
             <div class="blog_content">
                 <div class="blog_item">
-                    <div class="blog_img"></div>
+                    <div class="blog_img">
+                        <a href=""><img src="images/posts/post_10.jpg" alt=""></a>
+                        <div class="overlay_blog">
+                            <i class="fas fa-link"></i>
+                        </div>
+                    </div>
                     <div class="blog_sub">
                         <div class="blog_info">
                             <span><a href="#">May 12, 2016</a></span>
@@ -407,13 +412,18 @@
                     </div>
                 </div>
                 <div class="blog_item">
-                    <div class="blog_img"></div>
+                    <div class="blog_img">
+                        <a href=""><img src="images/posts/post_11.jpg" alt=""></a>
+                        <div class="overlay_blog">
+                            <i class="fas fa-link"></i>
+                        </div>
+                    </div>
                     <div class="blog_sub">
                         <div class="blog_info">
-                            <span><a href="#">May 12, 2016</a></span>
+                            <span><a href="#">May 7, 2016</a></span>
                         </div>
                         <div class="blog_title">
-                            <a href="#">Delights of Korean Seafood</a>
+                            <a href="#">Partnership Announcement</a>
                         </div>
                         <div class="blog_desc">
                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque.
@@ -421,13 +431,18 @@
                     </div>
                 </div>
                 <div class="blog_item">
-                    <div class="blog_img"></div>
+                    <div class="blog_img">
+                        <a href=""><img src="images/posts/post_12.jpg" alt=""></a>
+                        <div class="overlay_blog">
+                            <i class="fas fa-link"></i>
+                        </div>
+                    </div>
                     <div class="blog_sub">
                         <div class="blog_info">
-                            <span><a href="#">May 12, 2016</a></span>
+                            <span><a href="#">May 1, 2016</a></span>
                         </div>
                         <div class="blog_title">
-                            <a href="#">Delights of Korean Seafood</a>
+                            <a href="#">Seafood Industry</a>
                         </div>
                         <div class="blog_desc">
                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque.
