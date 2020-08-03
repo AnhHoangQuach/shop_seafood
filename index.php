@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/d8b310bdda.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -386,6 +386,55 @@
                     <a href="#" class="btn btn-light">VIEW OUR PORTFOLIO</a>
                 </div>
             </div>
+        </div>
+        <div class="blog_recent">
+            <div class="empty_space"></div>
+            <h6 class="sc_subtitle">blog</h6>
+            <h2 class="sc_title_video">RECENT NEWS</h2>
+            <div class="blog_content">
+                <div class="blog_item">
+                    <div class="blog_img"></div>
+                    <div class="blog_sub">
+                        <div class="blog_info">
+                            <span><a href="#">May 12, 2016</a></span>
+                        </div>
+                        <div class="blog_title">
+                            <a href="#">Delights of Korean Seafood</a>
+                        </div>
+                        <div class="blog_desc">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque.
+                        </div>
+                    </div>
+                </div>
+                <div class="blog_item">
+                    <div class="blog_img"></div>
+                    <div class="blog_sub">
+                        <div class="blog_info">
+                            <span><a href="#">May 12, 2016</a></span>
+                        </div>
+                        <div class="blog_title">
+                            <a href="#">Delights of Korean Seafood</a>
+                        </div>
+                        <div class="blog_desc">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque.
+                        </div>
+                    </div>
+                </div>
+                <div class="blog_item">
+                    <div class="blog_img"></div>
+                    <div class="blog_sub">
+                        <div class="blog_info">
+                            <span><a href="#">May 12, 2016</a></span>
+                        </div>
+                        <div class="blog_title">
+                            <a href="#">Delights of Korean Seafood</a>
+                        </div>
+                        <div class="blog_desc">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque.
+                        </div>
+                    </div>
+                </div>
+            </div>          
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.js" 

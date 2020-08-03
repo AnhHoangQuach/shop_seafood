@@ -171,4 +171,5 @@ $(document).ready(function() {
         var symbol = vd_view[0].src.indexOf("?") > -1 ? "&" : "?";
         vd_view[0].src += symbol + "autoplay=1";
     });
+    
 });

@@ -297,6 +297,29 @@
 .about_feature {
     width: 227px;
     height: 182px;
+    position: relative;
+}
+
+.about_feature:hover:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color:  rgba(131,172,199,1);
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.about_feature:hover:after {
+    content: '\f0c1';
+    font-family: 'Font Awesome 5 Free';
+    top: 42%;
+    left: 47%;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .sc_item_title {
@@ -645,7 +668,7 @@
 
 /* video_banner */
 .video_banner {
-    height: 700px;
+    height: 760px;
     text-align: center;
     background-image: url(../images/bg_parallax.jpg);
     color: #fff;
@@ -710,3 +733,16 @@
     color: #fff;
     cursor: pointer;
 }
+
+/* blog_recent */
+.blog_recent {
+    height: 700px;
+    text-align: center;
+}
+
+.blog_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
