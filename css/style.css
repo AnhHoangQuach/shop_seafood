@@ -130,7 +130,7 @@
     height: 700px;
 }
 
-.owl-carousel {
+#slides_car .owl-carousel {
     position: relative;
 }
 
@@ -736,7 +736,7 @@
 
 /* blog_recent */
 .blog_recent {
-    height: 700px;
+    height: 650px;
     text-align: center;
 }
 
@@ -819,4 +819,24 @@
 
 .blog_img:hover > .overlay_blog {
     opacity: 1;
+}
+
+.car_banner {
+    height: 215px;
+    background-image: url(../images/bg_clients.jpg);
+}
+
+/* client_banner */
+.car_banner {
+    height: 215px;
+}
+
+.car_item {
+    padding: 0px 25px;
+}
+
+.car_item img {
+    width: 125px !important;
+    height: 95px;
+    margin: 30% 20% 0%;
 }

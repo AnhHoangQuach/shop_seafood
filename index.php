@@ -76,7 +76,7 @@
         </div>
     </header>
     <section>
-        <div class="owl-carousel owl-theme">
+        <div id="slides_car" class="owl-carousel owl-theme">
             <div class="item">
                 <img class="img-responsive" src="images/slides/slides_1.jpg" alt="">
                 <div class="item-caption">
@@ -450,6 +450,25 @@
                     </div>
                 </div>
             </div>          
+        </div>
+        <div class="car_banner">
+            <div id="clients_car" class="owl-carousel owl-theme">
+                <div class="car_item">
+                    <img class="img-responsive" src="images/clients/client1.png" alt="">
+                </div>
+                <div class="car_item">
+                    <img src="images/clients/client2.png" alt="">       
+                </div>
+                <div class="car_item">
+                    <img src="images/clients/client3.png" alt="">
+                </div>
+                <div class="car_item">
+                    <img src="images/clients/client4.png" alt="">
+                </div>
+                <div class="car_item">
+                    <img src="images/clients/client5.png" alt="">
+                </div>
+            </div>
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.js" 

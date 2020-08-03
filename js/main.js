@@ -7,7 +7,7 @@ $(document).ready(function() {
             $('.header_bottom').removeClass('navbar_fixed');
         }
     });
-    var heroSlider = $('.owl-carousel');
+    var heroSlider = $('#slides_car');
     heroSlider.owlCarousel({
         loop:true,
         nav:false,
@@ -20,6 +20,7 @@ $(document).ready(function() {
             },
         }
     });
+
     // putting dots to slide
     var dots = $('.owl-dots').css('position', 'absolute').css('bottom', '5px');
     dots.css('left', 'calc(50% - ' + dots.width()/2+'px)');
@@ -171,4 +172,23 @@ $(document).ready(function() {
         var symbol = vd_view[0].src.indexOf("?") > -1 ? "&" : "?";
         vd_view[0].src += symbol + "autoplay=1";
     });
+
+    $('#clients_car').owlCarousel({
+        loop:true,
+        nav:false,
+        autoplay:true,
+        autoplayTimeout:4000,
+        autoplayHoverPause:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:5
+            }
+        }
+    })
 });
