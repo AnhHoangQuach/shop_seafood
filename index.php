@@ -24,7 +24,7 @@
                     </div>
                     <div class="col-md-2 columns_wrap">
                         <span class="icon_left"><i class="fas fa-phone-volume"></i></span>    
-                        <span class="contact_label">Call us at <br> <a href="tel:0869679324"> 0869679324</a></span>
+                        <span class="contact_label">Call us at <a href="tel:0869679324"> 0869679324</a></span>
                     </div>
                     <div class="col-md-4 columns_wrap">
                         <a href="index.php"><img src="images/logo.png" alt=""></a>

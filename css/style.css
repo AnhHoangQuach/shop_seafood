@@ -12,17 +12,34 @@
 .columns_wrap {
     text-align: center;
     box-sizing: border-box;
-    vertical-align: top;
-    position: relative;
     list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
 }
 
 .columns_wrap span {
     color:rgba(255,255,255,.4);
-    position: absolute;
     top: 30px;
-    display: block;
     margin: 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.columns_wrap:nth-child(2) span {
+    flex-direction: column;
+}
+
+ul.columns_wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.user_login {
+    width: 80px;
 }
 
 .contact_label {
@@ -47,11 +64,6 @@
 .icon_right {
     padding: 0px 20px;
     margin: 15px 0px;
-}
-
-.contact_label_right {
-    padding: 0px 40px;
-    margin: 10px 0px;
 }
 
 /* header_bottom */
