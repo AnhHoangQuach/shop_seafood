@@ -9,6 +9,11 @@
     display: block;
 }
 
+.header__logo {
+    display: flex;
+    justify-content: center;
+}
+
 .columns_wrap {
     text-align: center;
     box-sizing: border-box;
