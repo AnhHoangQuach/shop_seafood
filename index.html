@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
 </head>
@@ -48,41 +49,71 @@
             </div>
         </div>
         <div class="header_bottom">
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="nav_links">
-                        <li class="nav-item dropdown active">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            HOME
+            <nav class="header_bottom-nav">
+                <ul class="header_bottom-nav-list">
+                    <li class="header_bottom-nav-item">
+                        <div class="dropdown">
+                            <a class="dropbtn">HOME
+                                <i class="fas fa-caret-down"></i>
                             </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Something else here</a>
+                            <div class="dropdown-content">
+                                <a href="#">Link 1</a>
+                                <a href="#">Link 2</a>
+                                <a href="#">Link 3</a>
                             </div>
-                        </li>
-                        <li class="nav-item"><a href="">FEATURES</a></li>
-                        <li class="nav-item"><a href="">RECIPES</a></li>
-                        <li class="nav-item"><a href="">PRODUCTS</a></li>
-                        <li class="nav-item"><a href="">BLOG</a></li>
-                        <li class="nav-item"><a href="">ABOUT</a></li>
-                        <li class="nav-item"><a href="">CONTACTS</a></li>
-                    </ul>
-                </div>
+                        </div>                    
+                    </li>
+                    <li class="header_bottom-nav-item"><a href="">FEATURES</a></li>
+                    <li class="header_bottom-nav-item"><a href="">RECIPES</a></li>
+                    <li class="header_bottom-nav-item"><a href="">PRODUCTS</a></li>
+                    <li class="header_bottom-nav-item"><a href="">BLOG</a></li>
+                    <li class="header_bottom-nav-item"><a href="">ABOUT</a></li>
+                    <li class="header_bottom-nav-item"><a href="">CONTACTS</a></li>
+                </ul>
             </nav>
         </div>
+        <div class="header__nav-bars-button">
+            <label for="nav__mobile-input" class="nav__bars-btn">
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg>
+            </label>
+            <label for="nav__mobile-input"></label>
+            <input type="checkbox" hidden name="" id="nav__mobile-input" class="nav__input">
+            <label for="nav__mobile-input" class="nav__overlay"></label>
+            <nav class="nav__mobile">
+                <label for="nav__mobile-input" class="nav__mobile-close">  
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" class="svg-inline--fa fa-times fa-w-11" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path></svg>
+                </label>
+                <ul class="nav__mobile-list">
+                    <li class="nav__mobile-link">
+                        <div class="dropdown">
+                            <a class="dropbtn">HOME
+                                <i class="fas fa-caret-down"></i>
+                            </a>
+                            <div class="dropdown-content">
+                                <a href="#">Link 1</a>
+                                <a href="#">Link 2</a>
+                                <a href="#">Link 3</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav__mobile-link">FEATURES</li>
+                    <li class="nav__mobile-link">RECIPES</li>
+                    <li class="nav__mobile-link">PRODUCTS</li>
+                    <li class="nav__mobile-link">BLOG</li>
+                    <li class="nav__mobile-link">ABOUT</li>
+                    <li class="nav__mobile-link">CONTACTS</li>
+                </ul>
+            </nav>
+        </div>
+        <div class="overlay"></div>
     </header>
     <section>
         <div id="slides_car" class="owl-carousel owl-theme">
             <div class="item">
                 <img class="img-responsive" src="images/slides/slides_1.jpg" alt="">
                 <div class="item-caption">
-                    <h1 class="caption animate__animated animate__bounce">THE WONDERS OF THE OCEAN</h1>
-                    <h4 class="caption_bottom animate__animated animate__fadeInLeft">ON THE PLATE</h4>
+                    <h1>THE WONDERS OF THE OCEAN</h1>
+                    <h4 class="caption_bottom">ON THE PLATE</h4>
                 </div>
             </div>
             <div class="item">
@@ -102,22 +133,22 @@
         </div>
     </section>
     <div class="page_content_wrap">
-        <div class="container">
+        <div class="grid wide">
             <div class="empty_space"></div>
-            <div class="content_wrap">
-                <div class="product_feature">
+            <div class="row content_wrap">
+                <div class="col l-2 c-8 product_feature">
                     <h2>LEADER</h2>
                     <span>Seafood</span>
                 </div>
-                <div class="product_feature">
+                <div class="col l-2 c-8 product_feature">
                     <h2>PARTNER</h2>
                     <span>Sustainable</span>
                 </div>
-                <div class="product_feature">
+                <div class="col l-2 c-8 product_feature">
                     <h2>PRODUCT</h2>
                     <span>World Class</span>
                 </div>
-                <div class="product_feature">
+                <div class="col l-2 c-8 product_feature">
                     <h2>QUALITY</h2>
                     <span>Control</span>
                 </div>
@@ -129,7 +160,7 @@
             <h6 class="sc_subtitle">welcome</h6>
             <h2 class="sc_title">SEAFOOD COMPANY</h2>
             <div class="section_content">
-                <div class="container">
+                <div class="container section_content-mobile">
                     <div class="sc_image">
                     </div>
                     <div class="sc_block">
@@ -162,33 +193,35 @@
             <div class="empty_space"></div>
             <h6 class="sc_subtitle">about</h6>
             <h2 class="sc_title">OUR ADVANTAGES</h2>
-            <div class="sc_wrap">
-                <div class="sc_wrap_item">
-                    <div class="about_feature"></div>
-                    <div class="sc_item_title sc_1">
-                        <a href="#">Responsibly Sourced</a>
-                        <p class="sc_item_desc1">Responsibly-sourced seafood is the key to the modern, safe and profitable seafood industry.</p>
+            <div class="grid wide">
+                <div class="row sc_wrap">
+                    <div class="col l-3 c-6 sc_wrap_item">
+                        <div class="about_feature"></div>
+                        <div class="sc_item_title">
+                            <a href="#">Responsibly Sourced</a>
+                            <p class="sc_item_desc1">Responsibly-sourced seafood is the key to the modern, safe and profitable seafood industry.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="sc_wrap_item">
-                    <div class="about_feature"></div>
-                    <div class="sc_item_title sc_2">
-                        <a href="#">Environment</a>
-                        <p class="sc_item_desc2">The seafood industry has a concern over climate impact, and takes responsibility in any case.</p>
+                    <div class="col l-3 c-6 sc_wrap_item">
+                        <div class="about_feature"></div>
+                        <div class="sc_item_title">
+                            <a href="#">Environment</a>
+                            <p class="sc_item_desc2">The seafood industry has a concern over climate impact, and takes responsibility in any case.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="sc_wrap_item">
-                    <div class="about_feature"></div>
-                    <div class="sc_item_title sc_3">
-                        <a href="#">Staff</a>
-                        <p class="sc_item_desc3">Our experts work hard to maintain the quality seafood for our dear customers exclusively.</p>
+                    <div class="col l-3 c-6 sc_wrap_item">
+                        <div class="about_feature"></div>
+                        <div class="sc_item_title">
+                            <a href="#">Staff</a>
+                            <p class="sc_item_desc3">Our experts work hard to maintain the quality seafood for our dear customers exclusively.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="sc_wrap_item">
-                    <div class="about_feature"></div>
-                    <div class="sc_item_title sc_4">
-                        <a href="#">Marketplace</a>
-                        <p class="sc_item_desc4">Your business becomes benefitial by providing the customers with the best.</p>
+                    <div class="col l-3 c-6 sc_wrap_item">
+                        <div class="about_feature"></div>
+                        <div class="sc_item_title">
+                            <a href="#">Marketplace</a>
+                            <p class="sc_item_desc4">Your business becomes benefitial by providing the customers with the best.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -198,60 +231,64 @@
             <div class="empty_space"></div>
             <h6 class="sc_subtitle">our</h6>
             <h2 class="sc_title">FULL SERVICE</h2>
-            <div class="service_wrap">
-                <div class="sc_service">
-                    <div class="service_feature">
-                        <a href="#"><span class="sc_icon"><i class="fas fa-globe fa-2x"></i></span></a>
-                        <div class="service_title">
-                            <h6>GLOBAL NETWORK</h6>
-                            <p class="sc_desc">Learn about our world wide net. Become a partner or a client.</p>
+            <div class="grid wide">
+                <div class="row service_wrap">
+                    <div class="col l-4 c-10 sc_service">
+                        <div class="service_feature">
+                            <a href="#"><span class="sc_icon"><i class="fas fa-globe fa-2x"></i></span></a>
+                            <div class="service_title">
+                                <h6>GLOBAL NETWORK</h6>
+                                <p class="sc_desc">Learn about our world wide net. Become a partner or a client.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="sc_service">
-                    <div class="service_feature">
-                        <a href="#"><span class="sc_icon"><i class="fas fa-shipping-fast fa-2x"></i></span></a>
-                        <div class="service_title">
-                            <h6>LOGISTICS</h6>
-                            <p class="sc_desc">One if the most important factors. Always fresh, always in time.</p>
+                    <div class="col l-4 c-10 sc_service">
+                        <div class="service_feature">
+                            <a href="#"><span class="sc_icon"><i class="fas fa-shipping-fast fa-2x"></i></span></a>
+                            <div class="service_title">
+                                <h6>LOGISTICS</h6>
+                                <p class="sc_desc">One if the most important factors. Always fresh, always in time.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="sc_service">
-                    <div class="service_feature">
-                        <a href="#"><span class="sc_icon"><i class="fas fa-warehouse fa-2x"></i></span></a>
-                        <div class="service_title">
-                            <h6>WAREHOUSES</h6>
-                            <p class="sc_desc">Professional equipment is key. We work to maintain standards.</p>
+                    <div class="col l-4 c-10 sc_service">
+                        <div class="service_feature">
+                            <a href="#"><span class="sc_icon"><i class="fas fa-warehouse fa-2x"></i></span></a>
+                            <div class="service_title">
+                                <h6>WAREHOUSES</h6>
+                                <p class="sc_desc">Professional equipment is key. We work to maintain standards.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="service_wrap_sec">
-                <div class="sc_service">
-                    <div class="service_feature">
-                        <a href="#"><span class="sc_icon"><i class="fas fa-certificate fa-2x"></i></span></a>
-                        <div class="service_title">
-                            <h6>CERTIFICATION</h6>
-                            <p class="sc_desc">We work with certified employees. We provide top quality food.</p>
+            <div class="grid wide">
+                <div class="row service_wrap_sec">
+                    <div class="col l-4 c-10 sc_service">
+                        <div class="service_feature">
+                            <a href="#"><span class="sc_icon"><i class="fas fa-certificate fa-2x"></i></span></a>
+                            <div class="service_title">
+                                <h6>CERTIFICATION</h6>
+                                <p class="sc_desc">We work with certified employees. We provide top quality food.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="sc_service">
-                    <div class="service_feature">
-                        <a href="#"><span class="sc_icon"><i class="fas fa-temperature-low fa-2x"></i></span></a>
-                        <div class="service_title">
-                            <h6>TEMPERATURE MONITOR</h6>
-                            <p class="sc_desc">The importance of the right degree for different sea products.</p>
+                    <div class="col l-4 c-10 sc_service">
+                        <div class="service_feature">
+                            <a href="#"><span class="sc_icon"><i class="fas fa-temperature-low fa-2x"></i></span></a>
+                            <div class="service_title">
+                                <h6>TEMPERATURE MONITOR</h6>
+                                <p class="sc_desc">The importance of the right degree for different sea products.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="sc_service">
-                    <div class="service_feature">
-                        <a href="#"><span class="sc_icon"><i class="fas fa-utensil-spoon fa-2x"></i></i></span></a>
-                        <div class="service_title">
-                            <h6>TEST KITCHENS</h6>
-                            <p class="sc_desc">Cook our seafood products and see how they prove to be perfect.</p>
+                    <div class="col l-4 c-10 sc_service">
+                        <div class="service_feature">
+                            <a href="#"><span class="sc_icon"><i class="fas fa-utensil-spoon fa-2x"></i></i></span></a>
+                            <div class="service_title">
+                                <h6>TEST KITCHENS</h6>
+                                <p class="sc_desc">Cook our seafood products and see how they prove to be perfect.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -281,19 +318,43 @@
         <div class="sc_product">
             <h6 class="sc_subtitle">seafood</h6>
             <h2 class="sc_title">DISCOVER OUR PRODUCTS</h2>
-            <div class="product_wrap_one">
-                <div class="post_product1"></div>
-                <div class="post_product1"></div>
-                <div class="post_product1"></div>
-                <div class="post_product1"></div>
-                <div class="post_product1"></div>
+            <div class="grid wide">
+                <div class="row product_wrap_one">
+                    <div class="col l-2 c-5 post_product1">
+                        <span>TUNA</span>
+                    </div>
+                    <div class="col l-2 c-5 post_product1">
+                        <span>SNAPPER</span>
+                    </div>
+                    <div class="col l-2 c-5 post_product1">
+                        <span>SHRIMP</span>
+                    </div>
+                    <div class="col l-2 c-5 post_product1">
+                        <span>SCALLOPS</span>
+                    </div>
+                    <div class="col l-2 c-5 post_product1">
+                        <span>SALMON</span>
+                    </div>
+                </div>
             </div>
-            <div class="product_wrap_sec">
-                <div class="post_product2"></div>
-                <div class="post_product2"></div>
-                <div class="post_product2"></div>
-                <div class="post_product2"></div>
-                <div class="post_product2"></div>
+            <div class="grid wide">
+                <div class="row product_wrap_sec">
+                    <div class="col l-2 c-5 post_product2">
+                        <span>MASAGO</span>
+                    </div>
+                    <div class="col l-2 c-5 post_product2">
+                        <span>LOBSTER</span>
+                    </div>
+                    <div class="col l-2 c-5 post_product2">
+                        <span>CRAB</span>
+                    </div>
+                    <div class="col l-2 c-5 post_product2">
+                        <span>CLAMS</span>
+                    </div>
+                    <div class="col l-2 c-5 post_product2">
+                        <span>MUSSELS</span>
+                    </div>
+                </div>
             </div>
             <div class="sc_pro_but">
                 <a href="#" class="btn btn-dark sc_but">VIEW MORE PRODUCTS</a>
@@ -325,45 +386,47 @@
             <div class="empty_space"></div>
             <h6 class="sc_subtitle">products</h6>
             <h2 class="sc_title">FEATURED ITEMS</h2>
-            <div class="product_list_item">
-                <div class="item_info">
-                    <a href="#"><img src="images/items/1.jpg" alt=""></a>
-                    <div class="overlay">
-                        <a href="#" class="btn btn-dark">ADD TO CART</a>
+            <div class="grid wide">
+                <div class="row product_list_item">
+                    <div class="col l-3 c-6 item_info">
+                        <a href="#"><img src="images/items/1.jpg" alt=""></a>
+                        <div class="overlay">
+                            <a href="#" class="btn btn-dark">ADD TO CART</a>
+                        </div>
+                        <div class="item_sub">
+                            <h3><a href="#">Salmon</a></h3>
+                            <span class="price">$25.00</span>
+                        </div>
                     </div>
-                    <div class="item_sub">
-                        <h3><a href="#">Salmon</a></h3>
-                        <span class="price">$25.00</span>
+                    <div class="col l-3 c-6 item_info">
+                        <a href="#"><img src="images/items/2.jpg" alt=""></a>
+                        <div class="overlay">
+                            <a href="#" class="btn btn-dark">ADD TO CART</a>
+                        </div>
+                        <div class="item_sub">
+                            <h3><a href="#">Tilapia</a></h3>
+                            <span class="price">$19.00</span>
+                        </div>
                     </div>
-                </div>
-                <div class="item_info">
-                    <a href="#"><img src="images/items/2.jpg" alt=""></a>
-                    <div class="overlay">
-                        <a href="#" class="btn btn-dark">ADD TO CART</a>
+                    <div class="col l-3 c-6 item_info">
+                        <a href="#"><img src="images/items/3.jpg" alt=""></a>
+                        <div class="overlay">
+                            <a href="#" class="btn btn-dark">ADD TO CART</a>
+                        </div>
+                        <div class="item_sub">
+                            <h3><a href="#">Shrimp</a></h3>
+                            <span class="price">$21.00</span>
+                        </div>
                     </div>
-                    <div class="item_sub">
-                        <h3><a href="#">Tilapia</a></h3>
-                        <span class="price">$19.00</span>
-                    </div>
-                </div>
-                <div class="item_info">
-                    <a href="#"><img src="images/items/3.jpg" alt=""></a>
-                    <div class="overlay">
-                        <a href="#" class="btn btn-dark">ADD TO CART</a>
-                    </div>
-                    <div class="item_sub">
-                        <h3><a href="#">Shrimp</a></h3>
-                        <span class="price">$21.00</span>
-                    </div>
-                </div>
-                <div class="item_info">
-                    <a href="#"><img src="images/items/4.jpg" alt=""></a>
-                    <div class="overlay">
-                        <a href="#" class="btn btn-dark">ADD TO CART</a>
-                    </div>
-                    <div class="item_sub">
-                        <h3><a href="#">Snapper</a></h3>
-                        <span class="price">$18.00</span>
+                    <div class="col l-3 c-6 item_info">
+                        <a href="#"><img src="images/items/4.jpg" alt=""></a>
+                        <div class="overlay">
+                            <a href="#" class="btn btn-dark">ADD TO CART</a>
+                        </div>
+                        <div class="item_sub">
+                            <h3><a href="#">Snapper</a></h3>
+                            <span class="price">$18.00</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -392,61 +455,63 @@
             <div class="empty_space"></div>
             <h6 class="sc_subtitle">blog</h6>
             <h2 class="sc_title_video">RECENT NEWS</h2>
-            <div class="blog_content">
-                <div class="blog_item">
-                    <div class="blog_img">
-                        <a href=""><img src="images/posts/post_10.jpg" alt=""></a>
-                        <div class="overlay_blog">
-                            <i class="fas fa-link"></i>
+            <div class="grid wide">
+                <div class="row blog_content">
+                    <div class="col l-3 c-10 blog_item">
+                        <div class="blog_img">
+                            <a href=""><img src="images/posts/post_10.jpg" alt=""></a>
+                            <div class="overlay_blog">
+                                <i class="fas fa-link"></i>
+                            </div>
+                        </div>
+                        <div class="blog_sub">
+                            <div class="blog_info">
+                                <span><a href="#">May 12, 2016</a></span>
+                            </div>
+                            <div class="blog_title">
+                                <a href="#">Delights of Korean Seafood</a>
+                            </div>
+                            <div class="blog_desc">
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque.
+                            </div>
                         </div>
                     </div>
-                    <div class="blog_sub">
-                        <div class="blog_info">
-                            <span><a href="#">May 12, 2016</a></span>
+                    <div class="col l-3 c-10 blog_item">
+                        <div class="blog_img">
+                            <a href=""><img src="images/posts/post_11.jpg" alt=""></a>
+                            <div class="overlay_blog">
+                                <i class="fas fa-link"></i>
+                            </div>
                         </div>
-                        <div class="blog_title">
-                            <a href="#">Delights of Korean Seafood</a>
-                        </div>
-                        <div class="blog_desc">
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque.
-                        </div>
-                    </div>
-                </div>
-                <div class="blog_item">
-                    <div class="blog_img">
-                        <a href=""><img src="images/posts/post_11.jpg" alt=""></a>
-                        <div class="overlay_blog">
-                            <i class="fas fa-link"></i>
-                        </div>
-                    </div>
-                    <div class="blog_sub">
-                        <div class="blog_info">
-                            <span><a href="#">May 7, 2016</a></span>
-                        </div>
-                        <div class="blog_title">
-                            <a href="#">Partnership Announcement</a>
-                        </div>
-                        <div class="blog_desc">
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque.
+                        <div class="blog_sub">
+                            <div class="blog_info">
+                                <span><a href="#">May 7, 2016</a></span>
+                            </div>
+                            <div class="blog_title">
+                                <a href="#">Partnership Announcement</a>
+                            </div>
+                            <div class="blog_desc">
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque.
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="blog_item">
-                    <div class="blog_img">
-                        <a href=""><img src="images/posts/post_12.jpg" alt=""></a>
-                        <div class="overlay_blog">
-                            <i class="fas fa-link"></i>
+                    <div class="col l-3 c-10 blog_item">
+                        <div class="blog_img">
+                            <a href=""><img src="images/posts/post_12.jpg" alt=""></a>
+                            <div class="overlay_blog">
+                                <i class="fas fa-link"></i>
+                            </div>
                         </div>
-                    </div>
-                    <div class="blog_sub">
-                        <div class="blog_info">
-                            <span><a href="#">May 1, 2016</a></span>
-                        </div>
-                        <div class="blog_title">
-                            <a href="#">Seafood Industry</a>
-                        </div>
-                        <div class="blog_desc">
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque.
+                        <div class="blog_sub">
+                            <div class="blog_info">
+                                <span><a href="#">May 1, 2016</a></span>
+                            </div>
+                            <div class="blog_title">
+                                <a href="#">Seafood Industry</a>
+                            </div>
+                            <div class="blog_desc">
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque.
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -473,37 +538,39 @@
         </div>
         <footer>
             <div class="footer_wrap">
-                <div class="footer_content_wrap">
-                    <aside class="logo_1 footer_comp">
-                        <div class="logo_footer">
-                            <a href="#"><img src="images/logo_footer.png" alt=""></a>
+                <div class="grid wide">
+                    <div class="row footer_content_wrap">
+                        <div class="logo_1 col l-3 c-6 footer_comp">
+                            <div class="logo_footer">
+                                <a href="#"><img src="images/logo_footer.png" alt=""></a>
+                            </div>
                         </div>
-                    </aside>
-                    <aside class="about_us footer_comp">
-                        <h6>ABOUT US</h6>
-                        <div class="about_desc">
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
+                        <div class="about_us col l-3 c-6 footer_comp">
+                            <h6>ABOUT US</h6>
+                            <div class="about_desc">
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
+                            </div>
                         </div>
-                    </aside>
-                    <aside class="links_nav footer_comp">
-                        <h6>LINKS</h6>
-                        <ul class="links_list">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Recipes</a></li>
-                            <li><a href="#">Careers</a></li>
-                            <li><a href="#">Features</a></li>
-                            <li><a href="#">Products</a></li>
-                            <li><a href="#">Careers</a></li>
-                        </ul>
-                    </aside>
-                    <aside class="contact_us footer_comp">
-                        <h6>CONTACT US</h6>
-                        <div class="text_widge">
-                            Call us at <a href="tel:0869679324">0869679324</a>
-                            36 Ngu Hanh Son, DN, VN
-                            <a href="mailto:skyahq13@gmail.com">skyahq13@gmail.com</a>
+                        <div class="links_nav col l-3 c-6 footer_comp">
+                            <h6>LINKS</h6>
+                            <ul class="links_list">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Recipes</a></li>
+                                <li><a href="#">Careers</a></li>
+                                <li><a href="#">Features</a></li>
+                                <li><a href="#">Products</a></li>
+                                <li><a href="#">Careers</a></li>
+                            </ul>
                         </div>
-                    </aside>
+                        <div class="contact_us col l-3 c-6 footer_comp">
+                            <h6>CONTACT US</h6>
+                            <div class="text_widge">
+                                Call us at <a href="tel:0869679324">0869679324</a>
+                                36 Ngu Hanh Son, DN, VN
+                                <a href="mailto:skyahq13@gmail.com">skyahq13@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="copyright">
                     Copyright &copy;<script>document.write(new Date().getFullYear());</script>

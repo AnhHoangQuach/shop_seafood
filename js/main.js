@@ -47,6 +47,9 @@ $(document).ready(function() {
                 if(count > count_margin) {
                     $(this).addClass('product_margin');
                 }
+                if(className === 'about_feature' || className === 'post_product1' || className === 'post_product2') {
+                    $(this).removeClass('product_margin');
+                }
             });
         }
     }
@@ -111,10 +114,6 @@ $(document).ready(function() {
             var sc_item_desc = $('.sc_item_desc' + `${sc_item_count++}`);
             var output_item = splitStr(sc_item_desc.text(), 24, '<br>');
             sc_item_desc.html(output_item);
-            if(sc_item_count >= 2) {
-                var sc_class = $('.sc_' + `${sc_item_count}`);
-                sc_class.addClass('sc_item_all');
-            }
         })
     }
 
